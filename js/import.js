@@ -1,5 +1,5 @@
-import posts from './posts.json' assert { type: 'json' };
-import comments from './comments.json' assert { type: 'json' };
+import posts from 'https://jsonplaceholder.typicode.com/posts' assert { type: 'json' };
+import comments from 'https://jsonplaceholder.typicode.com/comments' assert { type: 'json' };
 
 const newElement = document.createElement('div');
 
